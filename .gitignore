@@ -17,3 +17,6 @@ work/
 
 # Tablero Power BI: revisar antes de publicar
 *.pbix
+
+# Respaldos privados de PostgreSQL
+*.dump
