@@ -1,0 +1,85 @@
+{
+  "diagnostico": "NO_VIABLE_POR_AHORA_PARA_ENTRENAR_O_VALIDAR_UN_PREDICTOR_PREVENTIVO",
+  "unidad_objetivo": "intersección × fecha × hora",
+  "periodo": {
+    "inicio": "2015-01-01",
+    "fin": "2020-12-31"
+  },
+  "fuente_siniestros": "data\\processed\\siniestros_integrados.csv",
+  "fuente_geografica": "models\\hoja_revision_manual_georreferenciacion.csv",
+  "siniestros": {
+    "registros": 196152,
+    "fechas_invalidas": 0,
+    "horas_validas": 196152,
+    "distribucion_anual": {
+      "2015": 31341,
+      "2016": 34988,
+      "2017": 35171,
+      "2018": 36953,
+      "2019": 34990,
+      "2020": 22709
+    }
+  },
+  "geografia": {
+    "filas_candidatas": 50,
+    "direcciones_textuales_distintas": 28,
+    "direcciones_localidad_distintas": 28,
+    "con_coordenadas_calculadas": 50,
+    "validadas_humanamente": 0,
+    "ambiguas": 43,
+    "unicas_pendientes": 7
+  },
+  "cobertura_textual_no_validada": {
+    "siniestros_coincidentes": 2035,
+    "porcentaje_sobre_todos_los_siniestros": 1.037,
+    "advertencia": "La coincidencia de dirección no confirma que el accidente ocurrió en la intersección ni asigna una coordenada correcta."
+  },
+  "casos": {
+    "positivos": "Una o más ocurrencias registradas en una intersección/hora, solo después de validar ubicación y deduplicar el evento.",
+    "negativos": "No construir aún. La ausencia de una fila puede ser cero de reporte, falta de cobertura o ausencia de exposición; no es un negativo verdadero.",
+    "panel_completo": "No construir mientras el universo espacial no esté consolidado y las horas sin reporte no puedan interpretarse."
+  },
+  "split_temporal": {
+    "train": "2015-2018",
+    "validation": "2019",
+    "test": "2020",
+    "estado": "definido, no ejecutado por falta de etiquetas/universo válidos"
+  },
+  "variables": {
+    "candidatas_temporales": [
+      "año",
+      "mes",
+      "día de semana",
+      "hora",
+      "festivo si se incorpora calendario externo fechado"
+    ],
+    "candidatas_espaciales": [
+      "ID de intersección",
+      "coordenadas",
+      "localidad"
+    ],
+    "condicion": "ID/coordenadas/localidad solo tras curación y validación espacial; fecha y hora describen el periodo del resultado y deben poder conocerse al momento de emitir la predicción.",
+    "no_disponibles_en_las_fuentes_revisadas": [
+      "flujo/aforo vehicular",
+      "exposición por intersección y hora",
+      "clima histórico alineado",
+      "inventario temporal de infraestructura/señalización"
+    ],
+    "excluir": [
+      "gravedad",
+      "clase del accidente",
+      "hipótesis/causas",
+      "actores y vehículos",
+      "variables derivadas tras el siniestro"
+    ]
+  },
+  "metricas": "PR-AUC, Brier y recall@K solo después de confirmar etiquetas positivas/negativas y cobertura; no calculadas.",
+  "modelos_existentes": "V8B y V9D no se evalúan ni presentan como predictores preventivos de ocurrencia.",
+  "salidas": [
+    "models/diagnostico_panel_anual.csv",
+    "models/diagnostico_panel_split_temporal.csv",
+    "models/diagnostico_panel_geografia.csv",
+    "models/diagnostico_panel_horas.csv",
+    "ENTREGA_POWER_BI/06_EXPERIMENTO_PREVENTIVO/"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "name": "Candidatas unicas pendientes con coincidencia textual",
+  "metadata": {
+    "no_es_validacion_geografica": true,
+    "metodo": "Coincidencia normalizada exacta de DIRECCION y CODIGO_LOCALIDAD",
+    "registros_unicos_coincidentes": 404,
+    "crs": "EPSG:4326"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08148212,
+          4.701665889845709
+        ]
+      },
+      "properties": {
+        "id_revision": 44,
+        "direccion": "AV AVENIDA BOYACA-CL 116 02",
+        "localidad": "SUBA",
+        "siniestros_con_coincidencia_textual": 37,
+        "estado": "CANDIDATA_UNICA_PENDIENTE_VALIDACION",
+        "validado": "NO",
+        "interpretacion": "Punto candidato. La coordenada y la correspondencia espacial requieren revisión humana."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.07765597,
+          4.71296685984532
+        ]
+      },
+      "properties": {
+        "id_revision": 45,
+        "direccion": "AV AVENIDA BOYACA-CL 127 02",
+        "localidad": "SUBA",
+        "siniestros_con_coincidencia_textual": 40,
+        "estado": "CANDIDATA_UNICA_PENDIENTE_VALIDACION",
+        "validado": "NO",
+        "interpretacion": "Punto candidato. La coordenada y la correspondencia espacial requieren revisión humana."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.13840737,
+          4.6258316698481305
+        ]
+      },
+      "properties": {
+        "id_revision": 46,
+        "direccion": "AV AVENIDA BOYACA-CL 3 02",
+        "localidad": "KENNEDY",
+        "siniestros_con_coincidencia_textual": 24,
+        "estado": "CANDIDATA_UNICA_PENDIENTE_VALIDACION",
+        "validado": "NO",
+        "interpretacion": "Punto candidato. La coordenada y la correspondencia espacial requieren revisión humana."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1276333599999,
+          4.607767819848741
+        ]
+      },
+      "properties": {
+        "id_revision": 47,
+        "direccion": "AV AVENIDA PRIMERO DE MAYO-KR 50 02",
+        "localidad": "PUENTE ARANDA",
+        "siniestros_con_coincidencia_textual": 29,
+        "estado": "CANDIDATA_UNICA_PENDIENTE_VALIDACION",
+        "validado": "NO",
+        "interpretacion": "Punto candidato. La coordenada y la correspondencia espacial requieren revisión humana."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.13481917,
+          4.664212469846909
+        ]
+      },
+      "properties": {
+        "id_revision": 48,
+        "direccion": "CL 26-KR 86 02",
+        "localidad": "FONTIBON",
+        "siniestros_con_coincidencia_textual": 34,
+        "estado": "CANDIDATA_UNICA_PENDIENTE_VALIDACION",
+        "validado": "NO",
+        "interpretacion": "Punto candidato. La coordenada y la correspondencia espacial requieren revisión humana."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.03213027,
+          4.6935454698459695
+        ]
+      },
+      "properties": {
+        "id_revision": 49,
+        "direccion": "KR 7-CL 116 02",
+        "localidad": "USAQUEN",
+        "siniestros_con_coincidencia_textual": 27,
+        "estado": "CANDIDATA_UNICA_PENDIENTE_VALIDACION",
+        "validado": "NO",
+        "interpretacion": "Punto candidato. La coordenada y la correspondencia espacial requieren revisión humana."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.14859246,
+          4.62932675984802
+        ]
+      },
+      "properties": {
+        "id_revision": 50,
+        "direccion": "KR 80-CL 2 51",
+        "localidad": "KENNEDY",
+        "siniestros_con_coincidencia_textual": 213,
+        "estado": "CANDIDATA_UNICA_PENDIENTE_VALIDACION",
+        "validado": "NO",
+        "interpretacion": "Punto candidato. La coordenada y la correspondencia espacial requieren revisión humana."
+      }
+    }
+  ]
+}

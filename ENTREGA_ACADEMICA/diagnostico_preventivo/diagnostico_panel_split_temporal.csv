@@ -1,0 +1,4 @@
+﻿SPLIT,ANIOS,SINIESTROS_REGISTRADOS,DIRECCIONES_CANDIDATAS_CON_COINCIDENCIA,SINIESTROS_EN_DIRECCION_CANDIDATA_TEXTO,APTO_PARA_EVALUACION,MOTIVO
+train,2015-2018,138453,28,1529,False,Ubicaciones aún no validadas humanamente; ceros no confirmados como ausencia de siniestro.
+validation,2019,34990,27,276,False,Ubicaciones aún no validadas humanamente; ceros no confirmados como ausencia de siniestro.
+test,2020,22709,27,230,False,Ubicaciones aún no validadas humanamente; ceros no confirmados como ausencia de siniestro.

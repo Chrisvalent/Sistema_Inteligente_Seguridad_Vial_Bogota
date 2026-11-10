@@ -1,0 +1,19 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+*.pkl
+*.joblib
+*.db
+*.sqlite
+data/raw/
+data/processed/
+models/
+
+# Entregas comprimidas y archivos de trabajo
+*.zip
+work/
+
+# Tablero Power BI: revisar antes de publicar
+*.pbix

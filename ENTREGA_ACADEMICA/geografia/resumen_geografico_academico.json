@@ -1,0 +1,11 @@
+{
+  "candidatas_revisadas": 50,
+  "validacion_humana_si": 0,
+  "estados": {
+    "AMBIGUA_REQUIERE_REVISION": 43,
+    "CANDIDATA_UNICA_PENDIENTE_VALIDACION": 7
+  },
+  "registros_unicos_con_coincidencia_textual_en_7_candidatas_unicas_pendientes": 404,
+  "interpretacion": "Conteo por dirección y localidad exactas. No equivale a accidentes georreferenciados ni a coordenadas validadas.",
+  "sumas_de_las_50_filas_no_aditivas": "Las filas ambiguas pueden repetir la misma combinación de dirección/localidad para ubicaciones geométricas alternativas."
+}

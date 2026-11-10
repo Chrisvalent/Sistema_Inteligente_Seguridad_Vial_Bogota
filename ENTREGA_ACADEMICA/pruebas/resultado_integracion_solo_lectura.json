@@ -1,0 +1,31 @@
+{
+  "resultado": "OK_SOLO_LECTURA",
+  "api": {
+    "health_http_200": true,
+    "postgres_conectado": true,
+    "variables_schema_v8b": 34,
+    "variables_schema_v9d": 7
+  },
+  "postgres": {
+    "filas_actuales": 9,
+    "registros_tecnicos_a_excluir_de_resultados": [
+      {
+        "id": 8,
+        "modelo": "V8B",
+        "prediccion_guardada": "Con Heridos",
+        "fecha_creacion": "2026-11-07T11:24:50.394975-05:00",
+        "clasificacion_auditoria": "TECNICO_MARCADO",
+        "ano_entrada": 2015
+      },
+      {
+        "id": 9,
+        "modelo": "V9D_sin_diseno",
+        "prediccion_guardada": "Con Heridos",
+        "fecha_creacion": "2026-11-07T11:33:55.659859-05:00",
+        "clasificacion_auditoria": "SINTETICO_FUERA_DEL_PERIODO",
+        "ano_entrada": 2026
+      }
+    ],
+    "filas_insertadas_o_modificadas_por_esta_prueba": 0
+  }
+}

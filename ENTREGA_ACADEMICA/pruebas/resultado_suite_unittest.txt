@@ -1,0 +1,24 @@
+test_inicio_de_api_inicializa_tabla_en_lifespan (test_api_sin_postgresql.PruebasAPISinPostgreSQL.test_inicio_de_api_inicializa_tabla_en_lifespan) ... ok
+test_predice_con_fila_historica_sin_escribir_en_db (test_api_sin_postgresql.PruebasAPISinPostgreSQL.test_predice_con_fila_historica_sin_escribir_en_db) ... ok
+test_rechaza_variables_adicionales (test_api_sin_postgresql.PruebasAPISinPostgreSQL.test_rechaza_variables_adicionales) ... ok
+test_rechaza_variables_faltantes (test_api_sin_postgresql.PruebasAPISinPostgreSQL.test_rechaza_variables_faltantes) ... ok
+test_v9d_rechaza_variables_ajenas_al_modelo (test_api_sin_postgresql.PruebasAPISinPostgreSQL.test_v9d_rechaza_variables_ajenas_al_modelo) ... ok
+test_v9d_usa_argmax_y_guarda_version_sin_umbral (test_api_sin_postgresql.PruebasAPISinPostgreSQL.test_v9d_usa_argmax_y_guarda_version_sin_umbral) ... ok
+test_calcula_baselines_en_la_misma_particion (test_comparar_baselines_v9d.PruebasComparacionBaselines.test_calcula_baselines_en_la_misma_particion) ... ok
+test_rechaza_predicciones_desalineadas (test_comparar_baselines_v9d.PruebasComparacionBaselines.test_rechaza_predicciones_desalineadas) ... ok
+test_mapa_conserva_etiqueta_no_validado (test_mapa_revision_georreferenciacion.PruebasMapaRevision.test_mapa_conserva_etiqueta_no_validado) ... ok
+test_normaliza_direccion_para_unir_detalle_y_resumen (test_mapa_revision_georreferenciacion.PruebasMapaRevision.test_normaliza_direccion_para_unir_detalle_y_resumen) ... ok
+test_excluye_diseno_lugar_hasta_validar_su_disponibilidad (test_modelo_v9d.PruebasModeloV9D.test_excluye_diseno_lugar_hasta_validar_su_disponibilidad) ... ok
+test_metricas_de_clase_con_muertos (test_modelo_v9d.PruebasModeloV9D.test_metricas_de_clase_con_muertos) ... ok
+test_normalizar_quita_acentos_y_espacios (test_modelo_v9d.PruebasModeloV9D.test_normalizar_quita_acentos_y_espacios) ... ok
+test_pipeline_entrena_con_variables_temporales_y_localidad (test_modelo_v9d.PruebasModeloV9D.test_pipeline_entrena_con_variables_temporales_y_localidad) ... ok
+test_comprueba_pertenencia_al_poligono_de_localidad (test_revision_georreferenciacion.PruebasHojaRevisionGeorreferenciacion.test_comprueba_pertenencia_al_poligono_de_localidad) ... ok
+test_cruce_unico_y_una_sola_direccion_sigue_pendiente (test_revision_georreferenciacion.PruebasHojaRevisionGeorreferenciacion.test_cruce_unico_y_una_sola_direccion_sigue_pendiente) ... ok
+test_datos_incompletos_no_se_tratan_como_cruce_unico (test_revision_georreferenciacion.PruebasHojaRevisionGeorreferenciacion.test_datos_incompletos_no_se_tratan_como_cruce_unico) ... ok
+test_multiples_grupos_siguen_ambiguos_aunque_haya_un_cruce (test_revision_georreferenciacion.PruebasHojaRevisionGeorreferenciacion.test_multiples_grupos_siguen_ambiguos_aunque_haya_un_cruce) ... ok
+test_no_aprueba_automaticamente_ninguna_fila (test_revision_georreferenciacion.PruebasHojaRevisionGeorreferenciacion.test_no_aprueba_automaticamente_ninguna_fila) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 1.379s
+
+OK
